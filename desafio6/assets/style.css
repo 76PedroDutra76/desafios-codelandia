@@ -9,10 +9,12 @@ html{
     margin: 0;
 }
 #screen{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    top: 45px;    
 }
 #screen header{
     display: flex;
@@ -26,19 +28,23 @@ html{
     font-weight: 500;
 }
 #screen header h1{
+    position: relative;
     color: aliceblue;
     font-family: 'B612', sans-serif;
     font-size: 70px;
+    top: 50px;
 }
 #screen .principal{
+    position: relative;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 60%;
     gap: 65px;
 }
 .center{
-    display: grid;
+    display: grid ;
     color: aliceblue;
     font-family: 'B612', sans-serif;
     grid-template-areas: 'text'
@@ -47,6 +53,8 @@ html{
 }
 .center .text{
     grid-area: text;
+    position: relative;
+    bottom: 50px;
 }
 img{
     width: 184px;
@@ -57,10 +65,20 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    top: 5px;
     grid-area: elements;
+    font-weight: bold;
+}
+.timer{
+    position: relative;
+    top: 2px;
+    right: 6px;
 }
 li{
     list-style: none;
+    position: relative;
+    bottom: 6px;
 }
 li ul{
     position: relative;
@@ -78,7 +96,7 @@ li ul svg{
     grid-area: buttons;
     height: 45px;
     position: relative;
-    top: 30px;
+    top: 45px;
 }
 .buttons button{
     border-radius: 3px;
