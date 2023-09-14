@@ -160,6 +160,10 @@ li ul svg{
         width: 100%;
         gap: 0;
     }
+    #screen header{
+        position: relative;
+        top: 30px;
+    }
     .center{
         display: grid ;
         grid-template-areas:
