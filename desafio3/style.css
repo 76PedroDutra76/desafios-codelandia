@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     background-color: #f9f9f9;
 }
@@ -18,22 +22,7 @@ header{
     display: flex;
     align-items: center;
 }
-@media (max-width: 500px){
-    .conteudos img{
-        width: 230px;
-        height: 240px;
-    }
-    .conteudos{
-        flex-direction: column !important;
-    }
-    header{
-        height: 450px;
-    }
-}
-*{
-    margin: 0;
-    padding: 0;
-}
+
 header button{
     height: 30px;
     width: 75px;
@@ -219,4 +208,17 @@ footer #input4{
 #input4::placeholder{
     position: relative;
     bottom: 30px;
+}
+
+@media (max-width: 500px){
+    .conteudos img{
+        width: 230px;
+        height: 240px;
+    }
+    .conteudos{
+        flex-direction: column !important;
+    }
+    header{
+        height: 450px;
+    }
 }

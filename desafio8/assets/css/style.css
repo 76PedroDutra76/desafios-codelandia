@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    top: 45px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.header-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+button{
+    background-color: #FFFFFF;
+    border: 2px solid #EAEAEA;
+}
+.searching{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+}
+.login{
+    width: 180px;
+    border-radius: 100px;
+}
