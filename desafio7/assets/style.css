@@ -9,11 +9,9 @@ body{
     background-repeat: no-repeat;
 }
 header{
-    align-items: center;
     position: relative;
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
     top: 45px;
     margin-left: 100px;
     margin-right: 100px;
@@ -85,20 +83,28 @@ p{
 .right img{
     position: absolute;
     bottom: 0;
-    width: 600px;
+    width: 650px;
     right: 200px;
     filter: drop-shadow(4px 4px 6px gray);
 }
-@media(max-width: 1520px){
+@media(max-width: 1575px){
+    body{
+        background: linear-gradient(336grad, #FF4656 45%, #1F2326 45%);
+    }
+    .share{
+        position: absolute;
+        bottom: -860px;
+        left: 46%;
+    }
     .left{
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         top: 70px;
     }
     .chars{
-        position: absolute;
         flex-direction: column;
         gap: 60px;
+        top: 100px;
     }
     .char{
         width: 160px;
