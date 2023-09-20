@@ -7,8 +7,13 @@ header{
     justify-content: space-between;
     display: flex;
     top: 45px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+h1{
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 700;
 }
 .header-buttons{
     display: flex;
@@ -18,13 +23,98 @@ header{
 button{
     background-color: #FFFFFF;
     border: 2px solid #EAEAEA;
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
-.searching{
+#searching-btn{
     width: 45px;
     height: 45px;
     border-radius: 100px;
 }
-.login{
+#login-btn{
     width: 180px;
     border-radius: 100px;
+}
+.center{
+    display: flex;
+    position: relative;
+    top: 170px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.center p{
+    position: absolute;
+    top: 0;
+}
+.center #apple{
+    top: -30px;
+}
+.center #center-text{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 45px;
+    width: 600px;
+    text-align: center;
+    line-height: 70px;
+}
+.center-buttons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    top: 0;
+}
+.center-buttons button{
+    font-size: 17px;
+    font-weight: bold;
+}
+#memoji-btn{
+    background: #6610F2;
+    color: #F9F9F9;
+}
+.images{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 50vw;
+    top: -40px;
+}
+.images img{
+    width: 135px;
+    height: 135px;
+}
+/* .images img::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid lightblue;
+} */
+.images .imgs1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+}
+.images .imgs2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    top: 64%;
+}
+.images .imgs3{
+    position: absolute;
+    display: flex;
+    top: 380px;
 }
