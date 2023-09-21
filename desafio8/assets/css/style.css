@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+.screen{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
 header{
     position: relative;
     justify-content: space-between;
@@ -28,15 +34,29 @@ button{
     border-radius: 6px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid #ececec;
+    background-color: #cfcfcf;
+}
+button:active{
+    background-color: #FFFFFF;
+    border: 2px solid #EAEAEA;
 }
 #searching-btn{
     width: 45px;
     height: 45px;
     border-radius: 100px;
+    /* background-color: red; */
 }
 #login-btn{
     width: 180px;
     border-radius: 100px;
+    /* background-color: red; */
+}
+#login-btn .material-symbols-outlined{
+    display: none;
 }
 .center{
     display: flex;
@@ -76,6 +96,12 @@ button{
 #memoji-btn{
     background: #6610F2;
     color: #F9F9F9;
+}
+#memoji-btn:hover{
+    background-color: #6710f274;
+}
+#memoji-btn:active{
+    background: #6610F2;
 }
 .images{
     display: flex;
@@ -117,4 +143,119 @@ button{
     position: absolute;
     display: flex;
     top: 380px;
+}
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    margin-left: 20px;
+}
+footer h3::before{
+    color: #6610F2;
+    content: "|";
+    font-weight: 800;
+    position: absolute;
+    left: 65px;
+    top: 44px;
+}
+footer h3::after{
+    color: #6610F2;
+    content: "|";
+    font-weight: 800;
+    position: absolute;
+    right: 340px;
+    top: 44px;
+}
+footer p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+@media(max-width: 1920px){
+    header{
+        top: 30px;
+        margin-left: 385px;
+        margin-right: 385px;
+    }
+    .center{
+        top: 130px;
+    }
+    .center #center-text{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .images img{
+        width: 100px;
+        height: 100px;
+    }
+    button{
+        width: 180px;
+        height: 40px;
+    }
+    #searching-btn{
+        width: 40px;
+        height: 40px;
+    }
+    #login-btn{
+        width: 165px;
+    }
+    .center-buttons{
+        top: -10px;
+    }
+    .images .imgs3{
+        top: 305px;
+    }
+    footer{
+        height: 170px;
+        width: 770px;
+        left: 442px;
+    }
+    footer p{
+        width: 300px;
+    }
+}
+@media(max-width: 700px){
+    .screen{
+        height: 98vh;
+    }
+    header{
+        margin-left: 155px;
+        gap: 90px;
+    }
+    .header-buttons{
+        gap: 30px;
+    }
+    header #login-btn p{
+        display: none;
+    }
+    header #login-btn{
+        
+    }
+    .images img{
+        display: none;
+    }
+    footer{
+        flex-direction: column;
+        height: 336px;
+        width: 600px;
+        left: 50px;
+        gap: 60px;
+    }
+    footer h3::before{
+        left: 158px;
+        top: 61px;
+    }
+    footer h3::after{
+        left: 158px;
+        top: 194px
+    }
 }
