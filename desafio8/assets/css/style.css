@@ -151,6 +151,10 @@ footer{
     justify-content: center;
     align-items: center;
     bottom: 0;
+    height: 185px;
+    width: 900px;
+    left: 503px;
+    gap: 60px;
 }
 footer h3{
     font-size: 20px;
@@ -163,24 +167,25 @@ footer h3::before{
     content: "|";
     font-weight: 800;
     position: absolute;
-    left: 65px;
-    top: 44px;
+    left: 68px;
+    top: 52px;
 }
 footer h3::after{
     color: #6610F2;
     content: "|";
     font-weight: 800;
     position: absolute;
-    right: 340px;
-    top: 44px;
+    right: 407px;
+    top: 52px;
 }
 footer p{
     font-weight: bold;
     font-style: italic;
     font-size: 13px;
     font-family: 'Inter', sans-serif;
+    width: 360px;
 }
-@media(max-width: 1920px){
+@media(max-width: 1850px){
     header{
         top: 30px;
         margin-left: 385px;
@@ -219,43 +224,71 @@ footer p{
         width: 770px;
         left: 442px;
     }
+    footer h3::before{
+        color: #6610F2;
+        content: "|";
+        font-weight: 800;
+        position: absolute;
+        left: 65px;
+        top: 44px;
+    }
+    footer h3::after{
+        color: #6610F2;
+        content: "|";
+        font-weight: 800;
+        position: absolute;
+        right: 340px;
+        top: 44px;
+    }
     footer p{
         width: 300px;
     }
 }
 @media(max-width: 700px){
     .screen{
-        height: 98vh;
+        height: 100vh;
     }
     header{
-        margin-left: 155px;
-        gap: 90px;
+        top: 24px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .header-buttons{
-        gap: 30px;
+        width: 230px;
     }
-    header #login-btn p{
-        display: none;
-    }
-    header #login-btn{
-        
+    .center{
+        top: 200px;
     }
     .images img{
-        display: none;
+        width: 100px;
+        height: 100px;
+    }
+    .images .imgs1{
+        width: 90vw;
+    }
+    .images .imgs2{
+        width: 90vw;
+        top: 67%;
+    }
+    .images .imgs3{
+        top: 340px;
     }
     footer{
-        flex-direction: column;
-        height: 336px;
-        width: 600px;
-        left: 50px;
-        gap: 60px;
+        bottom: 0;
+        height: 259px;
+        width: 570px;
+        left: 35px;
     }
     footer h3::before{
-        left: 158px;
-        top: 61px;
+        left: 119px;
+        top: 52px;
     }
     footer h3::after{
-        left: 158px;
-        top: 194px
+        right: 265px;
+        top: 52px;
+    }
+    footer p{
+        font-size: 13px;
+        width: 122px;
     }
 }
