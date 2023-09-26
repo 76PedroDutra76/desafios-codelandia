@@ -16,30 +16,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Codelândia - Desafio 9</title>
 </head>
-<body class="h-100 bg-black text-white">
-    <nav class="navbar navbar justify-content-between  ">
-        <div class="container-fluid mx-5 mt-3 border">
-          <a style="font-weight: 700; font-family: 'DM Sans', sans-serif;" class="navbar-brand text-white me-5" href="#">Portifólio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+
+<body class="bg-black text-white ">
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container mt-3">
+          <a style="font-size: 26px;" class="navbar-brand text-white text-titulo" href="#">Portifólio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ms-5" id="navbarNav">
-            <ul class="navbar-nav" style="font-weight: 400; font-family: 'DM Sans', sans-serif;" >
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Sobre Mim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Projetos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-white" aria-disabled="true">Minhas Skills</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-normal" style="font-weight: 400;">
+              <a class="nav-link text-white" aria-current="page" href="#">Sobre Mim</a>
+              <a class="nav-link text-white" href="#">Projetos</a>
+              <a class="nav-link text-white" href="#">Serviços</a>
+              <a class="nav-link text-white" href="#">Minhas Skills</a>
+            </div>
           </div>
+        </div>
       </nav>
-    </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section>
+          <div class="row row-p mt-5">
+            <div class="col">
+              <h1 style="font-size: 40px; width: 305px;" class="text-titulo mb-3">Olá, Eu sou o Pedro Igor :3</h1>
+              <p style="font-weight: 500;" class="text-normal text-secondary mb-4">Desenvolvedor Back-End e Game-Dev</p>
+              <button type="button" class="btn btn-success-50 text-normal">Download CV</button>
+              <button type="button" class="btn btn-outline-dark text-white text-normal">Entrar em Contato</button>
+            </div>
+            <div class="col col-3">
+              <img src="assets/icons/illustration.svg" alt="">
+            </div>
+          </div>
+          <div class="row row-s">
+            <h1 class="text text-titulo mb-4">Sobre Mim</h1>
+            <p style="width: 630px;" class="text-normal text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam sunt magni perferendis temporibus, consequuntur doloribus eum at sint minus saepe necessitatibus id illo magnam debitis veritatis vitae itaque cupiditate.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum optio quasi, quis aperiam voluptate illo placeat blanditiis excepturi consectetur neque ducimus, fugiat saepe corporis rem, voluptas maxime id impedit beatae?</p>
+
+          </div>
+        </section>
+      </div>
+    </main>
 </body>
 </html>
