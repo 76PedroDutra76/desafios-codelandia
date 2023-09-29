@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background-color: #13131F;
+}
+
+.text-titulo {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.text-normal-r {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.text-normal-m {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.text-home {
+    position: relative;
+}
+
+.text-home::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    left: 6px;
+    height: 5px;
+    background-color: #8257E6;
+}
+
+.btn-h {
+    width: 150px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #8257E6;
+}
+
+.sect-p {
+    margin-top: 65px;
+}
