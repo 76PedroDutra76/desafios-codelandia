@@ -19,7 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <title>Codelândia - Desafio 9</title>
+    <title>Codelândia - Desafio 10</title>
 </head>
 
 <body class="bg-color">
@@ -35,12 +35,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav gap-5" style="font-weight: 400;">
-                        <a class="nav-link text-home text-white text-normal-m" aria-current="page" href="#">Home</a>
-                        <a class="nav-link text-secondary text-normal-m" href="#">Série</a>
-                        <a class="nav-link text-secondary text-normal-m" href="#">Filmes</a>
-                        <a class="nav-link text-secondary text-normal-m" href="#">Animes</a>
-                        <a class="nav-link text-secondary text-normal-m" href="#">Games</a>
-                        <button type="button" class="btn-h text-white text-titulo">Minha Conta</button>
+                        <a class="nav-link text-home text-normal-m active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-home text-normal-m" href="#">Série</a>
+                        <a class="nav-link text-home text-normal-m" href="#">Filmes</a>
+                        <a class="nav-link text-home text-normal-m" href="#">Animes</a>
+                        <a class="nav-link text-home text-normal-m" href="#">Games</a>
+                        <button type="button" class="btn-h text-titulo">Minha Conta</button>
                     </div>
                 </div>
             </div>
@@ -61,22 +61,315 @@
         </section>
 
         <section>
-            <div class="container">
+            <div class="container flex-column">
                 <div class="row mt-5 mb-5">
                     <div class="col-md-8">
-                        <div class="h-100 img-before position-relative p-4" style="background: url(assets/images/01.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
-                            <!-- <img class="img-fluid" src="assets/images/01.png" alt=""> -->
-                            <div class="position-absolute content w-100 px-4 py-3">
-                                <p style="font-size: 24px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore deserunt provident voluptatibus.</p>
+                        <div class=" img-before position-relative">
+                            <img class="img-fluid imgs" src="assets/images/01.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 24px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <img class="img-fluid" src="assets/images/02.png" alt="">
+                        <div class=" img-before position-relative disp-none">
+                            <img class="img-fluid imgs" src="assets/images/02.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                            </div>
                         </div>
-                        <div>
-                            <img class="img-fluid" src="assets/images/03.png" alt="">
+
+                        <div class=" img-before position-relative disp-none">
+                            <img class="img-fluid imgs" src="assets/images/03.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row">
+                <div class="row mb-5">
+                    <div class="col-md-8 mb-5">
+                        <div class="scroll">
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/04.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/05.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/06.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/07.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/08.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card flex-row bg-transparent w-100 img-before mb-5">
+                                <img class="img-fluid imgs mx-3 cropp" src="assets/images/09.png" alt="">
+                                <div class="flex-column d-flex justify-content-center z-3">
+                                    <p class="text-titulo text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.</p>
+                                    <p style="color: #C4C4C4; font-size: 11px;" class="text-normal-m w-75 disp-none">
+                                        Lorem, ipsum
+                                        dolor sit amet consectetur adipisicing elit.
+                                        Voluptatem expedita architecto labore! Obcaecati cum inventore mollitia odit
+                                        tempora maiores molestiae...
+                                    </p>
+                                    <p style="color: #C4C4C4; font-size: 10px;" class="text-white text-normal-m">
+                                        00/00/0000</p>
+                                    <button class="btns text-normal-m rounded-1">Lorem</button>
+                                    <div class="position-absolute btn-img px-4 py-3">
+                                        <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-5">
+                        <h1 style="font-size: 24px;" class="text-titulo text-white lorem-bef mb-5">Lorem ipsum dolor
+                        </h1>
+
+                        <div class=" img-before position-relative mb-3">
+                            <img class="img-fluid imgs" src="assets/images/10.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                            </div>
+                        </div>
+
+                        <div class=" img-before position-relative mb-3">
+                            <img class="img-fluid imgs" src="assets/images/11.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                            </div>
+                        </div>
+
+                        <div class=" img-before position-relative mb-5">
+                            <img class="img-fluid imgs" src="assets/images/12.png" alt="">
+                            <div class="position-absolute text-img w-100 px-4 py-3">
+                                <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                    deserunt provident voluptatibus.
+                                </p>
+                            </div>
+                            <div class="position-absolute btn-img w-100 px-4 py-3">
+                                <button type="button" class="btns text-normal-r rounded-1">Lorem</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row m-0 d-flex flex-wrap justify-content-between mb-5 row-f-response">
+                    <h1 style="font-size: 30px;" class="text-titulo text-white noticias-bef mb-5">Notícias Mais Recentes
+                    </h1>
+                    <div style="width: 400px;" class=" img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/13.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
+                        </div>
+                    </div>
+
+                    <div style="width: 400px;" class="img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/14.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
+                        </div>
+                    </div>
+
+                    <div style="width: 400px;" class=" img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/15.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row m-0 d-flex flex-wrap justify-content-between mb-5 row-f-response">
+                    <div style="width: 400px;" class=" img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/16.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
+                        </div>
+                    </div>
+
+                    <div style="width: 400px;" class=" img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/17.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
+                        </div>
+                    </div>
+
+                    <div style="width: 400px;" class=" img-before position-relative">
+                        <img class="img-fluid imgs" src="assets/images/18.png" alt="">
+                        <div class="position-absolute text-img w-100 px-4 py-3">
+                            <p style="font-size: 13px;" class="w-100 text-normal-r text-white">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Animi, quis! Ab neque fuga saepe accusamus dolore
+                                deserunt provident voluptatibus.
+                            </p>
+                        </div>
+                        <div class="position-absolute btn-img w-100 px-4 py-3">
+                            <button style="font-size: 13px;" type="button"
+                                class="btns text-normal-r rounded-1 w-25">Lorem</button>
                         </div>
                     </div>
                 </div>
@@ -84,7 +377,11 @@
         </section>
     </main>
 
-
+    <footer class="text-center mb-4 d-flex flex-column align-items-center ">
+        <p style="font-size: 24px; color: #8257E6;" class="navbar-brand text-titulo" href="#">Naped</p>
+        <p style="color: #C4C4C4; width: 400px;" class="text-normal-m">Todas as imagens de filmes, séries e etc são
+            marcas registradas dos seus respectivos proprietários.</p>
+    </footer>
 
     <!-- ===BOOTSTRAP SCRIPTS=== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
